@@ -1,0 +1,912 @@
+body {
+	margin: 0;
+}
+
+#wrapper {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #ebebeb;
+	z-index: 1;
+
+}
+
+#wrapper div.rainbow {
+	position: absolute;
+    top: 82px;
+    left: -188px;
+	display: block;
+	z-index: 1;
+	transform: rotate(45deg);
+}
+
+#wrapper div.frame-1 {
+	position: absolute;
+	right: 180px;
+	top: -10px;
+}
+#wrapper div.frame-2 {
+	position: absolute;
+	right: 180px;
+	top: 900px;
+} 
+#wrapper div.frame-3 {
+	position: absolute;
+	right: 180px;
+	top: 1750px;
+} 
+
+
+.layout {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 996px;
+	margin: 0 auto 0 auto;
+	background-color: #ffffff;
+	padding: 28px 28px 26px 30px;
+	z-index: 2;
+
+}
+
+#wrapper div.frame {
+	position: absolute;
+	bottom: 0;
+	width: 1050px;
+	height: 4px;
+	z-index: 4;
+	margin-left: -28px;
+	background-image: url(../images/frame.png);
+	
+}
+
+             
+
+
+
+/*  шапка сайта   */
+
+header {
+	display: inline-flex;
+	align-items: center;
+	width: 100%;
+	height: 74px;
+}
+
+div.logo {
+ 	display: block;
+ 	float: left;
+ 	width: 20%;
+ 	height: 100%;	
+}
+
+div.search {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 100%;
+	margin-left: 46px;
+	margin-top: 46px;	
+}
+
+input.field {
+	display: block;
+ 	float: left;
+	display: block;
+	border: 1px solid #e5e5e5;
+	width: 320px;
+	padding: 12px;
+
+}
+
+header input.button {
+	background-color: #00aedb;
+	color: #ffffff;
+	font-size: 19px;
+	border: none;
+	text-transform: uppercase;
+	padding: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-family:helveticanueu;
+	
+}
+
+div.social {
+ 	display: block;
+ 	overflow: hidden;
+ 	float: right;
+ 	height: 100%;
+ 	margin-top: 46px;
+ 	margin-left: 128px;
+ 	
+ }
+
+
+/* навигация меню    */
+
+nav {
+ 	display: inline-block;
+ 	width: 100%;
+ 	height: 38px;
+ 	margin-top: 10px;
+ 	
+ }
+
+nav div:nth-child(2n) {
+	padding-right: 16px;
+	padding-left: 16px;
+}
+nav div:first-child {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+nav div:nth-child(2) {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+nav div:nth-child(2n+1) {
+	padding-right: 12px;
+	padding-left: 12px;
+}
+nav div:last-child {
+	padding-right: 87px;
+	padding-left: 22px;
+}
+
+ div.block {
+ 	display: block;
+ 	float: left;
+ 	border: none;
+ 	height: 90%;
+ 	padding-top: 10px;
+
+ }
+ nav a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 19px;
+	text-transform: uppercase;
+	font-family:helveticanueu;
+}
+
+/*   TOP STORIES   */
+div.top {
+	display: block;
+	width: 100%;
+
+}
+div.top p {
+	font-size: 19px;
+	font-weight: 700;
+	color: #00aedb;
+	text-transform: uppercase;
+}
+content.top div.cell {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 32.33%;
+	height: 100%;
+	margin-right: 10px;
+
+}
+content.top div.cell:last-child {
+	margin-right: 0;
+}
+content.top div.cell .photo-block {
+	display: block;
+	width: 100%;
+}
+
+content.top div.cell div.block {
+	display: block;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 14px;
+}
+content.top div.triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8px 0 8px 10px;
+	border-color: transparent transparent transparent #ffffff;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+content.top div.cell div.block a {
+	float: left;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 19px;
+	text-transform: uppercase;
+	font-family:helveticanueu;
+}
+}
+
+content.top div.cell div.text {
+	display: block;
+}
+
+content.top div.cell div.text p {
+	font-size: 15px;
+	color: #6a6666;
+	font-weight: 700;
+}
+
+/*  блок с фото  */
+content.main {
+	display: block;
+	position: relative;
+	width: 65%;
+	margin-top: 30px;
+	float: left;
+	z-index: 3;
+}
+/* боковая дата   */
+content.main div.block-date {
+	display: block;
+	position: absolute;
+	left: -80px;
+
+}
+content.main div.block-date div.number {
+	display: block;
+	position: absolute;
+	background-color: #f78f1d;
+	width: 68px;
+	height: 60px;
+	opacity: 0.8;
+	z-index: 6;
+}
+
+content.main div.block-date div.number p {
+	font-size: 35px;
+	color: #ffffff;
+	font-weight: 700;
+	margin: 12px 13px 9px 17px;
+}
+
+
+content.main div.block-date div.month {
+	display: block;
+	position: absolute;
+	top: 58px;
+	background-color: #00aedb;
+	width: 62px;
+	height: 28px;
+	opacity: 0.8;
+	z-index: 6;
+} 
+
+content.main div.block-date div.month p{
+	font-size: 19px;
+	color: #ffffff;
+	
+}
+
+/*    */
+
+content.main div.text-1 {
+	display: block;
+
+}
+content.main div.text-1 p {
+	font-size: 35px;
+	color: #000000;
+	font-weight: 900;
+	line-height: 47px;
+	margin: 0;
+}
+content.main div.text-2 {
+	display: block;
+	text-align: justify;
+
+}
+content.main div.text-2 p {
+	font-size: 14px;
+	color: #494949;
+	margin-top: 14px;
+
+}
+content.main div.photo-block {
+	display: block;
+	padding: 12px;
+	width: 626px;
+	height: 548px;
+	border: 1px solid #bfbfbf;
+}
+
+
+content.main div.photo-contour {
+	display: block;
+	margin-top: 12px;
+
+}
+content.main div.photo-contour img {
+	display: block;
+	float: left;
+	padding: 4px;
+	border: 1px solid #bfbfbf;
+	margin-right: 7px;
+}
+content.main div.photo-contour img:last-child {
+	margin-right: 0;
+}
+
+/*  comments  */
+content.main div.after-block {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 18px;
+}
+
+content.main div.after-block img {
+	height: 17px;
+	margin-right: 10px;
+}
+content.main div.after-block p {
+	display: block;
+	font-size: 15px;
+	color: #6a6666;
+}
+
+/*   Боковое меню  */
+content.side div.top-stories {
+	display: block;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+content.side {
+	display: block;
+	float: right;
+	width: 33%;
+	margin-top: 30px;
+	
+}
+content.side  div.top-block-1 {
+	display: block;
+	width: 150px;
+	height: 40px;
+	float: left;
+
+}
+content.side div.block-triangle {
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+
+}
+
+
+content.side  div.top-block-1 p {
+	font-size: 17px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-left: 16px;
+}
+
+
+content.side div.triangle {
+	float: left;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 40px 0 0 40px;
+	border-color: transparent transparent transparent #5261ac;
+
+}
+
+
+content.side div.top-block p {
+	font-size: 17px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-top: 12px;
+	padding-bottom: 8px;
+	margin-left: 16px;
+}
+content.side div.line-block {
+	float: left;
+	display: block;
+	margin-top: 4px;
+	margin-bottom: 14px;
+	width: 100%;
+	height: 38px;
+}
+ content.side a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 19px;
+	text-transform: uppercase;
+	font-family:helveticanueu;
+}
+content.side div.line-block .block:first-child {
+	display: block;
+	padding-left: 10px;
+	padding-right: 8px;
+}
+content.side div.line-block .block:nth-child(2) {
+	display: block;
+	padding-left: 6px;
+	padding-right: 8px;
+}
+content.side div.line-block .block:last-child {
+	display: block;
+	padding-left: 14px;
+	padding-right: 21px;
+}
+ /*  Первый список  */
+content.side div.list-1 ul {
+	list-style: none;
+	padding: 0;
+}
+content.side div.list-1 ul li {
+	display: block;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+hr {
+	width: 100%;
+	height: 0.5%;
+	background-color: #dedddd;
+}
+
+content.side div.list-1 div.photo-side {
+	display: block;
+	width: 28%;
+	float: left;
+}
+
+content.side div.list-1 div.photo-side img {
+	padding: 2px;
+	border: 1px solid #c9c9c9;
+}
+content.side div.list-1 p {
+	margin: 0;
+}
+content.side div.list-1 div.text-1 {
+	display: block;
+	
+}
+content.side div.list-1 div.text-2 {
+	display: block;
+	margin-top: 10px;
+	
+}
+
+content.side div.list-1 div.text-1 p {
+	font-size: 13px;
+	color: #00aedb;
+	font-weight: 700;
+	line-height: 20px;
+}
+content.side div.list-1 div.text-2 p {
+	font-size: 11px;
+	color: #494949;
+	line-height: 17px;
+	text-align: justify;
+}
+
+/*  Второй список */
+
+content.side div.list-2 ul {
+	list-style: none;
+	padding: 0;
+}
+content.side div.list-2 ul li {
+	margin-top: 10px;
+}
+content.side div.list-2 div.photo-side {
+	display: block;
+	width: 28%;
+	float: left;
+}
+
+
+content.side div.list-2 div.photo-side img {
+	padding: 2px;
+	border: 1px solid #c9c9c9;
+}
+
+content.side div.list-2 div.text-2 {
+	display: block;	
+}
+content.side div.list-2 div.text-2 p {
+	font-size: 11px;
+	color: #494949;
+	line-height: 17px;
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+content.side div.list-2 div.text-2 a {
+	color: #00aedb;
+	padding-top: 15px;
+	text-transform: none;
+	font-size: 11px;
+
+}
+
+content.side div.list-tag a {
+
+}
+
+
+/*  Третий список */
+content.side  div.list-3 {
+	display: block;
+}
+
+content.side div.list-3 ul {
+	display: block;
+	list-style: none;
+	padding: 0;
+}
+content.side div.list-3 ul li {
+	display: block;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+content.side div.list-3 .text {
+	display: block;
+	text-align: justify;
+}
+
+content.side div.list-3 .text p {
+	font-size: 13px;
+	color: #494949;
+	line-height: 17px;
+	margin-left: 20px;
+}
+content.side div.list-3 div.triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 0 5px 10px;
+	border-color: transparent transparent transparent #5261ac;
+
+}
+
+
+/* tags cloud */
+
+div.list-tag {
+	display: block;
+	width: 100%;
+	margin-top: 14px;
+}
+div.list-tag a {
+	line-height: 28px;
+	text-transform: none;
+}
+
+div.list-tag a.small {
+	font-size: 14px;
+	color: #5261ac;
+	font-weight: 100;
+	
+}
+div.list-tag a.little {
+	font-size: 16px;
+	color: #5261ac;
+	font-weight: 400;
+}
+div.list-tag a.middle {
+	font-size: 16px;
+	color: #5261ac;
+	font-weight: 800;
+}
+div.list-tag a.large {
+	font-size: 20px;
+	color: #5261ac;
+	font-weight: 100;
+}
+div.list-tag a.extra {
+	font-size: 20px;
+	color: #f78f1d;
+	font-weight: 900;
+}
+
+
+/*   footer */
+footer {
+	display: block;
+	text-align: center;
+	height: 70px;
+
+}
+footer a {
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 70px;
+	color: #6a6666;
+	text-decoration: none;
+}
+
+
+
+
+/*   MagBlog-Inner */
+
+
+
+/*  cписок   */
+
+div.inner {
+	display: block;
+	width: 65%;
+	float: left;
+	margin-top: 20px;
+
+	
+}
+div.inner div.block {
+	display: inline-block;
+	width: 100%;
+	float: left;
+	margin-left: -30px;
+	padding: 0;
+	
+}
+div.inner div.top-block {
+	display: block;
+	width: 190px;
+	height: 40px;
+	float: left;
+}
+div.inner div.top-block p {
+	font-size: 17px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-left: 16px;
+	
+}
+div.inner div.triangle {
+	float: left;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 40px 0 0 40px;
+	border-color: transparent transparent transparent #5261ac;
+
+}
+
+div.inner div.list-1 {
+	display: block;
+	width: 100%;
+	height: 164px;
+	margin-top: 60px;
+}
+
+div.inner div.list-2 {
+	display: block;
+	width: 100%;
+	height: 410px;
+	margin-top: 80px;
+}
+
+
+div.inner div.conteiner {
+	display: block;
+	float: left;
+	width: 45%;
+}
+div.inner ul {
+	list-style: none;
+}
+div.inner div.triangle-s {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 0 5px 10px;
+	border-color: transparent transparent transparent #5261ac;
+	float: left;
+	margin-right: 25px;
+}
+
+div.inner div.conteiner div.text {
+	display: block;
+	float: left;
+}
+div.inner div.conteiner div.text p{
+	 font-size: 13px;
+	 color: #494949;
+	 line-height: 23px;
+	 margin-top: 0;
+	 margin-bottom: 0;
+}
+
+/*  форма отправки обратной связи  */
+div.inner div.line {
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+}
+
+div.inner div.line-area {
+	display: block;
+	width: 100%;
+	height: 140px;
+}
+
+div.inner form {
+	margin-top: 30px;
+}
+
+
+div.inner div.line div.name {
+	display: block;
+	float: left;
+	text-align: right;
+	width: 20%;
+}
+div.inner div.line div.name  p {
+	font-size: 17px;
+	color: #494949;
+	line-height: 27px;
+	font-weight: 100;
+	margin: 0;
+}
+
+div.inner div.line div.field {
+	display: block;
+	width: 70%;
+	height: 100%;
+	float: left;
+	margin-left: 16px;
+
+}
+div.inner div.line div.field input.area {
+	width: 435px;
+	height: 36px;
+	border: 1px solid #b0b0b0;
+	border-radius: 4px;
+	
+}
+
+div.inner div.line div.field textarea {
+	width: 435px;
+	height: 134px;
+	border: 1px solid #b0b0b0;
+	border-radius: 4px;
+}
+
+div.inner div.line input.button {
+	float: right;
+	margin-right: 60px;
+	background-color: #f78f1d;
+	padding: 12px 18px 12px 22px;
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	color: #ffffff;
+} 
+
+
+/*    Comments       */
+
+div.inner div.list-3 {
+	display: block;
+	width: 100%;
+	height: 360px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+div.inner div.list-3 li {
+	display: block;
+	width: 100%;
+	height: 90px;
+	margin-top: 36px;
+}
+div.inner div.avatar {
+	display: block;
+	float: left;
+	width: 70px;
+	height: 70px;
+	border: 1px solid #d2d2d2;
+	margin-right: 15px;
+}
+
+div.inner div.list-3 div.text {
+	display: block;
+	float: left;
+	width: 80%;
+	height: 70px;
+}
+div.inner div.list-3 div.text div.author {
+	display: block;
+	float: left;
+	width: 32%;
+	height: 20%;
+
+}
+
+div.inner div.list-3 div.text div.author p{
+	margin: 0;
+	font-size: 17px;
+	font-weight: 900;
+	color: #5261ac;
+}
+
+div.inner div.list-3 div.text div.date {
+	display: block;
+	float: left;
+	margin-left: 200px;	
+}
+
+div.inner div.list-3 div.text div.date p{
+	margin: 0;
+	font-size: 13px;
+	color: #494949;
+}
+
+div.inner div.list-3 div.text div.comment {
+	display: block;
+	float: left;
+	margin-top: 20px;
+}
+
+div.inner div.list-3 div.text div.comment p{
+	margin: 0;
+	font-size: 13px;
+	color: #494949;
+}
+
+div.inner div.frontier {
+	display: block;
+	margin-bottom: 20px;
+}
+
+div.inner div.list-3 hr {
+	float: left;
+	margin-left: 90px;
+	width: 400px;
+	height: 1px;
+	background-color: #d2d2d2;
+}
+
+div.inner div.frontier a {
+	float: left;
+	margin-left: 15px;
+	font-size: 15px;
+	color: #5261ac;
+	text-decoration: none;
+}
+
+
+/* цвета   */
+
+.color-blue {
+	background-color: #00aedb;
+}
+.color-green {
+	background-color: #8cc63f;
+}
+.color-purple {
+		background-color: #5261ac;
+}
+.color-orange {
+	background-color: #f78f1d;
+}
+.color-red {
+	background-color: #ff0000;
+}
+.color-grey {
+	background-color: #898989;
+}
+.color-pink {
+	background-color: #ec098d;
+}
+
+
+

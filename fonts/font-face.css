@@ -1,0 +1,13 @@
+@font-face {
+font-family: helveticanueu;
+src:url(../fonts/helveticaNueu/HelveticaNeueLTStd-Roman.woff);
+}
+a {
+	font-family: helveticanueu;
+}
+p {
+	font-family: helveticanueu;
+}
+li {
+	font-family: helveticanueu;
+}
